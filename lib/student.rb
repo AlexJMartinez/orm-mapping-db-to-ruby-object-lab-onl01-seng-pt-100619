@@ -71,4 +71,7 @@ class Student
       self.new_from_db(row)
     end
   end
+
+  def self.students_below_12th_grade
+  end
 end
